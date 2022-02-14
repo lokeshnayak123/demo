@@ -1,0 +1,11 @@
+{
+    "Dashboard": true,
+    "Roles": true,
+    "Permissions": true,
+    "Configuration": true,
+    "EmailTemplates": true,
+    "Users": true,
+    "Admin": true,
+    "Login": true,
+    "Products": true
+}

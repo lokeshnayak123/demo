@@ -1,0 +1,322 @@
+{
+	"id": "5b845b95-c4b7-97b2-23da-7771c1c88f34",
+	"name": "AspireTest",
+	"description": "Test apis to calculate loan emis ",
+	"order": [
+		"59b9fdb3-7d83-714c-dc56-aaeeaa5ae3f2",
+		"fc012e49-ff2d-647b-1a25-74c9683cb63a",
+		"c30a6884-8ac5-173f-260e-93b4dfb8e742",
+		"838d46e9-26cb-7cb5-ae6d-0a7f47e53d47",
+		"4c97c47b-ff1f-9b42-526e-47f82cc9ff29",
+		"2c6a61ce-a159-4f3d-0ebd-62dfdbeab7f8"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1644772962425,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "2c6a61ce-a159-4f3d-0ebd-62dfdbeab7f8",
+			"headers": "platform: \nversion: \nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL2FzcGlyZVwvYXBpXC9sb2dpbiIsImlhdCI6MTY0NDc4NTExNywiZXhwIjoxNjQ0Nzg4NzE3LCJuYmYiOjE2NDQ3ODUxMTcsImp0aSI6Ilc0b2UyTjBWanBVY0VlcVoiLCJzdWIiOjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.4I_9BX_W5t2K0YYqv3ESiyKgLIcgx-0qK80VU0tntBE\n",
+			"headerData": [
+				{
+					"key": "platform",
+					"value": "",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "version",
+					"value": "",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL2FzcGlyZVwvYXBpXC9sb2dpbiIsImlhdCI6MTY0NDc4NTExNywiZXhwIjoxNjQ0Nzg4NzE3LCJuYmYiOjE2NDQ3ODUxMTcsImp0aSI6Ilc0b2UyTjBWanBVY0VlcVoiLCJzdWIiOjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.4I_9BX_W5t2K0YYqv3ESiyKgLIcgx-0qK80VU0tntBE",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{base_url}}/get-loan-details",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "loan_id",
+					"value": "21",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1644787421276,
+			"name": "Get Loan Details",
+			"description": "Method : Post\nHeader parameters: \n1. platform\n2. version\n3. Authorization Bearer (login token)\n\nRequest Parameters:\n1. loan_id\n",
+			"collectionId": "5b845b95-c4b7-97b2-23da-7771c1c88f34",
+			"responses": []
+		},
+		{
+			"id": "4c97c47b-ff1f-9b42-526e-47f82cc9ff29",
+			"headers": "platform: android\nversion: 1.0.1\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL2FzcGlyZVwvYXBpXC9sb2dpbiIsImlhdCI6MTY0NDc4NTExNywiZXhwIjoxNjQ0Nzg4NzE3LCJuYmYiOjE2NDQ3ODUxMTcsImp0aSI6Ilc0b2UyTjBWanBVY0VlcVoiLCJzdWIiOjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.4I_9BX_W5t2K0YYqv3ESiyKgLIcgx-0qK80VU0tntBE\n",
+			"headerData": [
+				{
+					"key": "platform",
+					"value": "android",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "version",
+					"value": "1.0.1",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL2FzcGlyZVwvYXBpXC9sb2dpbiIsImlhdCI6MTY0NDc4NTExNywiZXhwIjoxNjQ0Nzg4NzE3LCJuYmYiOjE2NDQ3ODUxMTcsImp0aSI6Ilc0b2UyTjBWanBVY0VlcVoiLCJzdWIiOjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.4I_9BX_W5t2K0YYqv3ESiyKgLIcgx-0qK80VU0tntBE",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{base_url}}/my-loans",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1644786987868,
+			"name": "My Loans (It will show loans list for one user)",
+			"description": "Method : Post\nHeader parameters: \n1. platform\n2. version\n3. Authorization Bearer (login token)",
+			"collectionId": "5b845b95-c4b7-97b2-23da-7771c1c88f34",
+			"responses": []
+		},
+		{
+			"id": "59b9fdb3-7d83-714c-dc56-aaeeaa5ae3f2",
+			"headers": "platform: android\nversion: 1.0.1\n//device_token: 232323233\n",
+			"headerData": [
+				{
+					"key": "platform",
+					"value": "android",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "version",
+					"value": "1.0.1",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "device_token",
+					"value": "232323233",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "{{base_url}}/login",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "email",
+					"value": "test@yopmail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "12345678",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1644777087470,
+			"name": "Login",
+			"description": "Method : Post\nHeader parameters: \n1. platform\n2. version\n\nRequest parameters\n1. email\n2. password",
+			"collectionId": "5b845b95-c4b7-97b2-23da-7771c1c88f34",
+			"responses": []
+		},
+		{
+			"id": "838d46e9-26cb-7cb5-ae6d-0a7f47e53d47",
+			"headers": "platform: android\nversion: 1.0.1\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL2FzcGlyZVwvYXBpXC9sb2dpbiIsImlhdCI6MTY0NDc4NTExNywiZXhwIjoxNjQ0Nzg4NzE3LCJuYmYiOjE2NDQ3ODUxMTcsImp0aSI6Ilc0b2UyTjBWanBVY0VlcVoiLCJzdWIiOjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.4I_9BX_W5t2K0YYqv3ESiyKgLIcgx-0qK80VU0tntBE\n",
+			"headerData": [
+				{
+					"key": "platform",
+					"value": "android",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "version",
+					"value": "1.0.1",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL2FzcGlyZVwvYXBpXC9sb2dpbiIsImlhdCI6MTY0NDc4NTExNywiZXhwIjoxNjQ0Nzg4NzE3LCJuYmYiOjE2NDQ3ODUxMTcsImp0aSI6Ilc0b2UyTjBWanBVY0VlcVoiLCJzdWIiOjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.4I_9BX_W5t2K0YYqv3ESiyKgLIcgx-0qK80VU0tntBE",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{base_url}}/apply-loan",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "loan_amount",
+					"value": "10000",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "loan_term_in_week",
+					"value": "50",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "rate_of_interest",
+					"value": "10",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1644786563491,
+			"name": "Apply Loan",
+			"description": "Method : Post\nHeader parameters: \n1. platform\n2. version\n3. Authorization Bearer (login token)\n\nRequest Parameters:\n1. loan_amount\n2. loan_term_in_week\n3. rate_of_interest\n\n\n\n",
+			"collectionId": "5b845b95-c4b7-97b2-23da-7771c1c88f34",
+			"responses": []
+		},
+		{
+			"id": "c30a6884-8ac5-173f-260e-93b4dfb8e742",
+			"headers": "platform: android\nversion: 1.0.1\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL2FzcGlyZVwvYXBpXC9sb2dpbiIsImlhdCI6MTY0NDc3OTkyOSwiZXhwIjoxNjQ0NzgzNTI5LCJuYmYiOjE2NDQ3Nzk5MjksImp0aSI6InU2NExKY0tkVFRtNlpORVkiLCJzdWIiOjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.Nr9rhqzZrRZxMigqWpb_CSSD1Gjxq43E1O-5zH02HTU\n",
+			"headerData": [
+				{
+					"key": "platform",
+					"value": "android",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "version",
+					"value": "1.0.1",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL2FzcGlyZVwvYXBpXC9sb2dpbiIsImlhdCI6MTY0NDc3OTkyOSwiZXhwIjoxNjQ0NzgzNTI5LCJuYmYiOjE2NDQ3Nzk5MjksImp0aSI6InU2NExKY0tkVFRtNlpORVkiLCJzdWIiOjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.Nr9rhqzZrRZxMigqWpb_CSSD1Gjxq43E1O-5zH02HTU",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{base_url}}/logout",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1644779999651,
+			"name": "Logout",
+			"description": "Method : Post\nHeader parameters: \n1. platform\n2. version\n3. Authorization Bearer (login token)",
+			"collectionId": "5b845b95-c4b7-97b2-23da-7771c1c88f34",
+			"responses": []
+		},
+		{
+			"id": "fc012e49-ff2d-647b-1a25-74c9683cb63a",
+			"headers": "platform: android\nversion: 1.0.1\n",
+			"headerData": [
+				{
+					"key": "platform",
+					"value": "android",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "version",
+					"value": "1.0.1",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{base_url}}/register",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "email",
+					"value": "test6@yopmail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "12345678",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "test",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1644778042340,
+			"name": "Registration",
+			"description": "Method : Post\nHeader parameters: \n1. platform\n2. version\n\nRequest parameters\n1. email\n2. password\n3. name\n4. phone(optional)",
+			"collectionId": "5b845b95-c4b7-97b2-23da-7771c1c88f34",
+			"responses": []
+		}
+	]
+}
